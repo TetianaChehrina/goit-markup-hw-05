@@ -647,7 +647,6 @@ color: #8E8F99;
 
 .contacts-add-checkbox-icon{
 fill: #f4f4fd;
-opacity: 0;
 }
 
 .contacts-add-checkbox:checked + .contacts-add-checkbox-label > .contacts-add-checkbox-icon{
@@ -691,12 +690,12 @@ outline: 2px solid rgb(0, 0, 255, 0.5);
 }
 
 .contacts-add-btn{
-    display: inline-flex;
+    display: flex;
     min-width: 169px;
     height: 56px;
         padding: 16px 32px;
-        margin-left: 119px;
-        margin-right: 120px;
+        margin-left: auto;
+        margin-right: auto;
         align-items: flex-start;
         justify-content: center;
         border-radius: 4px;
@@ -710,4 +709,63 @@ outline: 2px solid rgb(0, 0, 255, 0.5);
             font-weight: 500;
             line-height: 1.5;
             letter-spacing: 0.04em;
+}
+
+.container-footer-subcribe{
+    margin-left: 80px;
+}
+
+.footer-subscribe{
+    color: #FFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.footer-subscribe-btn{
+    display: flex;
+}
+
+.footer-form-input::placeholder{
+    color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 2;
+        letter-spacing: 0.04em;
+}
+
+.footer-form-input{
+    width: 264px;
+        height: 40px;
+        background: #2E2F42;
+        border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
+    margin-right: 24px;
+}
+
+.footer-subscribe-button{
+    display: inline-flex;
+    min-width: 165px;
+    height: 40px;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        cursor: pointer;
+    color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+            background: #4D5AE5;
+}
+
+.footer-form-btn{
+    fill: #FFFFFF;
 }
