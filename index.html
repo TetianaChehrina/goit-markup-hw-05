@@ -476,7 +476,7 @@
     </footer>
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg
             class="modal-close-btn-icon"
             width="8"
@@ -497,12 +497,12 @@
                 class="contacts-add-input"
                 type="text"
                 id="user-name"
-                name="user name"
+                name="user-name"
                 required
               /><svg
                 class="contacts-add-input-icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="user-icon"
               >
                 <use href="./images/icons.svg#icon-person"></use>
@@ -524,7 +524,7 @@
                 height="24"
                 aria-label="user-icon-phone"
               >
-                <use href="/images/icons.svg#icon-phone"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -561,15 +561,12 @@
             <input
               class="contacts-add-checkbox visually-hidden"
               type="checkbox"
-              id="user-privacy-policy"
-              name="user-privacy-policy"
+              id="user-privacy"
+              name="user-privacy"
               value="true"
               required
             />
-            <label
-              class="contacts-add-checkbox-label"
-              for="user-privacy-policy"
-            >
+            <label class="contacts-add-checkbox-label" for="user-privacy">
               <span class="contacts-add-checkbox-own">
                 <svg
                   class="contacts-add-checkbox-icon"
