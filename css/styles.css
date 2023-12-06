@@ -724,8 +724,9 @@ outline: 2px solid rgb(0, 0, 255, 0.5);
         margin-bottom: 16px;
 }
 
-.footer-subscribe-btn{
+.continer-footer-form{
     display: flex;
+    gap: 24px;
 }
 
 .footer-form-input::placeholder{
